@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "fd68dd49-d1fe-8e4e-b3b1-5c32e03678e9++94",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "fd68dd49-d1fe-8e4e-b3b1-5c32e03678e9++94" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "fd68dd49-d1fe-8e4e-b3b1-5c32e03678e9++94" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "36C9A974-48F0-4088-A0C6-3CB5BBC4F8B1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "fd68dd49-d1fe-8e4e-b3b1-5c32e03678e9++94" : "Movies\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WZCHttpYYCache",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOS练习\/WZCHttpYYCache\/WZCHttpYYCache.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.62.1.151:9098\/svn\/bmh",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "fd68dd49-d1fe-8e4e-b3b1-5c32e03678e9++94"
+    }
+  ]
+}

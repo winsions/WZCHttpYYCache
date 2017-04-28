@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E76F3BB7B6A4712200ADE4 /* libPods-WZCHttpYYCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE4DE7C3E5ECEBADDAA858F /* libPods-WZCHttpYYCache.a */; };
+		F56DF8F21EB1CE6E000BBFF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F56DF8F11EB1CE6E000BBFF0 /* main.m */; };
+		F56DF8F51EB1CE6E000BBFF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F56DF8F41EB1CE6E000BBFF0 /* AppDelegate.m */; };
+		F56DF8F81EB1CE6E000BBFF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56DF8F71EB1CE6E000BBFF0 /* ViewController.m */; };
+		F56DF8FB1EB1CE6E000BBFF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56DF8F91EB1CE6E000BBFF0 /* Main.storyboard */; };
+		F56DF8FE1EB1CE6E000BBFF0 /* WZCHttpYYCache.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F56DF8FC1EB1CE6E000BBFF0 /* WZCHttpYYCache.xcdatamodeld */; };
+		F56DF9001EB1CE6E000BBFF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56DF8FF1EB1CE6E000BBFF0 /* Assets.xcassets */; };
+		F56DF9031EB1CE6E000BBFF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56DF9011EB1CE6E000BBFF0 /* LaunchScreen.storyboard */; };
+		F56DF90D1EB1D150000BBFF0 /* WZCHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = F56DF90C1EB1D150000BBFF0 /* WZCHttp.m */; };
+		F5D3C0351EB1E78800FE3A78 /* WZCYYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D3C0341EB1E78800FE3A78 /* WZCYYCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B53A2D2BE0493FC28B57878 /* Pods-WZCHttpYYCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZCHttpYYCache.release.xcconfig"; path = "Pods/Target Support Files/Pods-WZCHttpYYCache/Pods-WZCHttpYYCache.release.xcconfig"; sourceTree = "<group>"; };
+		142B998481BA73F7CEF8E984 /* Pods-WZCHttpYYCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZCHttpYYCache.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WZCHttpYYCache/Pods-WZCHttpYYCache.debug.xcconfig"; sourceTree = "<group>"; };
+		1AE4DE7C3E5ECEBADDAA858F /* libPods-WZCHttpYYCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WZCHttpYYCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56DF8ED1EB1CE6E000BBFF0 /* WZCHttpYYCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZCHttpYYCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56DF8F11EB1CE6E000BBFF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F56DF8F31EB1CE6E000BBFF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F56DF8F41EB1CE6E000BBFF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F56DF8F61EB1CE6E000BBFF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F56DF8F71EB1CE6E000BBFF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F56DF8FA1EB1CE6E000BBFF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F56DF8FD1EB1CE6E000BBFF0 /* WZCHttpYYCache.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WZCHttpYYCache.xcdatamodel; sourceTree = "<group>"; };
+		F56DF8FF1EB1CE6E000BBFF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F56DF9021EB1CE6E000BBFF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F56DF9041EB1CE6E000BBFF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56DF90B1EB1D150000BBFF0 /* WZCHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCHttp.h; sourceTree = "<group>"; };
+		F56DF90C1EB1D150000BBFF0 /* WZCHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCHttp.m; sourceTree = "<group>"; };
+		F5D3C0331EB1E78800FE3A78 /* WZCYYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCYYCache.h; sourceTree = "<group>"; };
+		F5D3C0341EB1E78800FE3A78 /* WZCYYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCYYCache.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F56DF8EA1EB1CE6E000BBFF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E76F3BB7B6A4712200ADE4 /* libPods-WZCHttpYYCache.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C4C3728DB3A6AFD247A33DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				142B998481BA73F7CEF8E984 /* Pods-WZCHttpYYCache.debug.xcconfig */,
+				0B53A2D2BE0493FC28B57878 /* Pods-WZCHttpYYCache.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF60443A31150A40919DA02F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AE4DE7C3E5ECEBADDAA858F /* libPods-WZCHttpYYCache.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F56DF8E41EB1CE6E000BBFF0 = {
+			isa = PBXGroup;
+			children = (
+				F56DF8EF1EB1CE6E000BBFF0 /* WZCHttpYYCache */,
+				F56DF8EE1EB1CE6E000BBFF0 /* Products */,
+				6C4C3728DB3A6AFD247A33DF /* Pods */,
+				AF60443A31150A40919DA02F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F56DF8EE1EB1CE6E000BBFF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F56DF8ED1EB1CE6E000BBFF0 /* WZCHttpYYCache.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F56DF8EF1EB1CE6E000BBFF0 /* WZCHttpYYCache */ = {
+			isa = PBXGroup;
+			children = (
+				F56DF90A1EB1D11A000BBFF0 /* WZCHttp */,
+				F56DF8F31EB1CE6E000BBFF0 /* AppDelegate.h */,
+				F56DF8F41EB1CE6E000BBFF0 /* AppDelegate.m */,
+				F56DF8F61EB1CE6E000BBFF0 /* ViewController.h */,
+				F56DF8F71EB1CE6E000BBFF0 /* ViewController.m */,
+				F56DF8F91EB1CE6E000BBFF0 /* Main.storyboard */,
+				F56DF8FF1EB1CE6E000BBFF0 /* Assets.xcassets */,
+				F56DF9011EB1CE6E000BBFF0 /* LaunchScreen.storyboard */,
+				F56DF9041EB1CE6E000BBFF0 /* Info.plist */,
+				F56DF8FC1EB1CE6E000BBFF0 /* WZCHttpYYCache.xcdatamodeld */,
+				F56DF8F01EB1CE6E000BBFF0 /* Supporting Files */,
+			);
+			path = WZCHttpYYCache;
+			sourceTree = "<group>";
+		};
+		F56DF8F01EB1CE6E000BBFF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56DF8F11EB1CE6E000BBFF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F56DF90A1EB1D11A000BBFF0 /* WZCHttp */ = {
+			isa = PBXGroup;
+			children = (
+				F56DF90B1EB1D150000BBFF0 /* WZCHttp.h */,
+				F56DF90C1EB1D150000BBFF0 /* WZCHttp.m */,
+				F5D3C0331EB1E78800FE3A78 /* WZCYYCache.h */,
+				F5D3C0341EB1E78800FE3A78 /* WZCYYCache.m */,
+			);
+			path = WZCHttp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F56DF8EC1EB1CE6E000BBFF0 /* WZCHttpYYCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56DF9071EB1CE6E000BBFF0 /* Build configuration list for PBXNativeTarget "WZCHttpYYCache" */;
+			buildPhases = (
+				F6A1D543D3205459263E66B0 /* [CP] Check Pods Manifest.lock */,
+				F56DF8E91EB1CE6E000BBFF0 /* Sources */,
+				F56DF8EA1EB1CE6E000BBFF0 /* Frameworks */,
+				F56DF8EB1EB1CE6E000BBFF0 /* Resources */,
+				E29A112192C65F0FD87AE5B7 /* [CP] Embed Pods Frameworks */,
+				95F981759484CA86165A7A90 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZCHttpYYCache;
+			productName = WZCHttpYYCache;
+			productReference = F56DF8ED1EB1CE6E000BBFF0 /* WZCHttpYYCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F56DF8E51EB1CE6E000BBFF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = winsion;
+				TargetAttributes = {
+					F56DF8EC1EB1CE6E000BBFF0 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F56DF8E81EB1CE6E000BBFF0 /* Build configuration list for PBXProject "WZCHttpYYCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F56DF8E41EB1CE6E000BBFF0;
+			productRefGroup = F56DF8EE1EB1CE6E000BBFF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56DF8EC1EB1CE6E000BBFF0 /* WZCHttpYYCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F56DF8EB1EB1CE6E000BBFF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56DF9031EB1CE6E000BBFF0 /* LaunchScreen.storyboard in Resources */,
+				F56DF9001EB1CE6E000BBFF0 /* Assets.xcassets in Resources */,
+				F56DF8FB1EB1CE6E000BBFF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95F981759484CA86165A7A90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WZCHttpYYCache/Pods-WZCHttpYYCache-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E29A112192C65F0FD87AE5B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WZCHttpYYCache/Pods-WZCHttpYYCache-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A1D543D3205459263E66B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F56DF8E91EB1CE6E000BBFF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56DF8F81EB1CE6E000BBFF0 /* ViewController.m in Sources */,
+				F56DF90D1EB1D150000BBFF0 /* WZCHttp.m in Sources */,
+				F56DF8FE1EB1CE6E000BBFF0 /* WZCHttpYYCache.xcdatamodeld in Sources */,
+				F56DF8F51EB1CE6E000BBFF0 /* AppDelegate.m in Sources */,
+				F56DF8F21EB1CE6E000BBFF0 /* main.m in Sources */,
+				F5D3C0351EB1E78800FE3A78 /* WZCYYCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F56DF8F91EB1CE6E000BBFF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56DF8FA1EB1CE6E000BBFF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F56DF9011EB1CE6E000BBFF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56DF9021EB1CE6E000BBFF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F56DF9051EB1CE6E000BBFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F56DF9061EB1CE6E000BBFF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F56DF9081EB1CE6E000BBFF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142B998481BA73F7CEF8E984 /* Pods-WZCHttpYYCache.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZCHttpYYCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsion.WZCHttpYYCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		F56DF9091EB1CE6E000BBFF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B53A2D2BE0493FC28B57878 /* Pods-WZCHttpYYCache.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZCHttpYYCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsion.WZCHttpYYCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F56DF8E81EB1CE6E000BBFF0 /* Build configuration list for PBXProject "WZCHttpYYCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56DF9051EB1CE6E000BBFF0 /* Debug */,
+				F56DF9061EB1CE6E000BBFF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56DF9071EB1CE6E000BBFF0 /* Build configuration list for PBXNativeTarget "WZCHttpYYCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56DF9081EB1CE6E000BBFF0 /* Debug */,
+				F56DF9091EB1CE6E000BBFF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F56DF8FC1EB1CE6E000BBFF0 /* WZCHttpYYCache.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F56DF8FD1EB1CE6E000BBFF0 /* WZCHttpYYCache.xcdatamodel */,
+			);
+			currentVersion = F56DF8FD1EB1CE6E000BBFF0 /* WZCHttpYYCache.xcdatamodel */;
+			path = WZCHttpYYCache.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F56DF8E51EB1CE6E000BBFF0 /* Project object */;
+}
