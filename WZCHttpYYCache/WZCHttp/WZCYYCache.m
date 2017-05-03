@@ -51,7 +51,7 @@ static YYKVStorage *_diskCache;
 
 
 + (NSString *)saveFileWithKey:(NSString *)key file:(id)file fileName:(NSString *)fileName{
-    NSLog(@"%@",fileName);
+    
     [_diskCache saveItemWithKey:key value:file filename:fileName extendedData:nil];
     return _diskCache.path;
 }

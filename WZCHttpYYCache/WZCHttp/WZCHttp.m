@@ -158,13 +158,20 @@ static NSDictionary     *headers;
     NSString *keyUrl = [[self alloc] urlDictToStringWithUrlStr:url WithDict:params];
 
     //判断是否有缓存,有缓存的话,直接返回缓存,然后再进行网络请求
-    id  responseObj = [WZCYYCache getResponseCacheForKey:keyUrl];
-    if (responseObj && cache) {
-        if (successBlock) {
-            successBlock(responseObj);
-        }
-    }
-    //判断网络状态
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+        //2.把任务添加到队列中执行
+        dispatch_async(queue, ^{
+            id  responseObj = [WZCYYCache getResponseCacheForKey:keyUrl];
+            if (responseObj && cache) {
+                if (successBlock) {
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        successBlock(responseObj);
+                    });
+                    
+                }
+            }
+        });
+    
     if (_netStatus == NetworkStatusNotReachable) {
         if (failBlock) {
             failBlock(NET_ERROR);
@@ -334,7 +341,8 @@ static NSDictionary     *headers;
     if (responseObj) {
         
         if (successBlock) {
-            NSLog(@"走了吗");
+            
+        
             successBlock([WZCYYCache getFilePath]);
         }
         return session;
